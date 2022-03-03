@@ -14,6 +14,15 @@ document.querySelector('#close-login-form').onclick = () =>{
   document.querySelector('.login-form-container').classList.remove('active');
 }
 
+document.querySelector('#Signup-btn').onclick = () =>{
+  document.querySelector('.Signup-form-container').classList.toggle('active');
+}
+
+document.querySelector('#close-Signup-form').onclick = () =>{
+  document.querySelector('.Signup-form-container').classList.remove('active');
+}
+
+
 let themeToggler = document.querySelector('.theme-toggler');
 let toggleBtn = document.querySelector('.toggle-btn');
 
